@@ -1,0 +1,107 @@
+
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: rgba(255, 255, 255, 0.158);
+  width: 20%;
+  height: 650px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.59);
+  overflow: hidden;
+  border-radius: 24px;
+  opacity: .9;
+ 
+  }
+
+.FormSubmit {
+height: 30px;
+width: 100%;
+margin-top: 0;
+border-radius: 12px;
+border: none;
+background-color: rgb(255, 255, 255);
+color:  rgb(38, 88, 252);
+font-size: 18px;
+ box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.59);
+ font-weight: bold;
+}
+.FormSubmit:hover {
+    background-color: rgb(107, 225, 255);
+    color: white;
+}
+
+input[type="email"]{
+border-style: none none solid;
+border-color: white;
+margin-bottom: 5%;
+font-size: 18px;
+width: 48%;
+padding-left: 10px;
+background-color: transparent;
+
+}
+input[type="password"]{
+border-style: none none solid;
+margin-bottom: 10%;
+font-size: 18px;
+width: 48%;
+padding-left: 10px;
+background-color: transparent;
+border-color: white;
+
+
+}
+::placeholder {
+  opacity: 1;
+  padding-left: 4%;
+  color:rgba(255, 255, 255, 0.575);
+}
+.box {
+    display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: 100vh;
+
+}
+
+.FormContainer h1 {
+    font-size: 70px;
+    margin-bottom: 10%;
+    color: transparent;
+    background-color: rgb(30, 83, 255);
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.144);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+
+    
+}
+.FormContainer h2 {
+    font-size: 24px;
+    margin-bottom: 10%;
+      color: white;
+    text-shadow: 0px 2px 3px rgba(2, 2, 2, 0.344);
+    
+    
+}
+.FormContainer h3 {
+    font-size: 18px;
+    margin-top: 10%;
+     color: transparent;
+    background-color: rgb(38, 88, 252);
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.144);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.register {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+}

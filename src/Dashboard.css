@@ -1,0 +1,28 @@
+
+.dashLink {
+    width: 30%;
+}
+.login {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background: #1a3ff7;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  "Segoe UI";
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.59);
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40%;
+    align-self: center;
+}
+
+.login:hover {
+    background-color: rgba(218, 218, 218, 0.432);
+    color: white;
+     -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.59);
+}
